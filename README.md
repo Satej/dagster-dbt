@@ -13,3 +13,5 @@ dbt deps
 dbt build
 dbt parse
 ```
+
+![Lineage](./global_asset_lineage.png)
