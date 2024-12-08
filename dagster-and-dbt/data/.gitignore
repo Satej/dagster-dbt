@@ -1,1 +1,2 @@
-raw/*
+raw/*.parquet
+raw/*.csv

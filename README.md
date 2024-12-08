@@ -1,3 +1,4 @@
+
 # dagster-dbt
 
 ![Lineage](./lineage.png)
@@ -5,6 +6,8 @@
 ```bash
 cd dagster-and-dbt
 cp .env.example .env
+python3 -m venv .venv
+. .venv/bin/activate
 pip install -e ".[dev]"
 dagster dev
 ```
@@ -15,5 +18,3 @@ dbt deps
 dbt build
 dbt parse
 ```
-
-![Lineage](./global_asset_lineage.png)
