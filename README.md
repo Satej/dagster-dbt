@@ -1,5 +1,7 @@
 # dagster-dbt
 
+![Lineage](./lineage.png)
+
 ```bash
 cd dagster-and-dbt
 cp .env.example .env
